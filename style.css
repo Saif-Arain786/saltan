@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+.image {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+#saif {
+    height: 90px;
+    width: 200px;
+    padding-left: 35px;
+}
+
+ul {
+    width: 55%;
+    display: flex;
+    align-items: center;
+
+    padding-left: 300px;
+    padding-top: 25px;
+    margin: 10px;
+    position: absolute;
+    color: rgb(242, 243, 243);
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 800;
+
+}
+
+.btn {
+    /* margin-right: 0px; */
+    height: 45px;
+    /* margin-bottom: 10px ; */
+    border-radius: 30px;
+
+}
+
+.bt {
+    background-color: black;
+    color: wheat;
+    border: 1px solid white;
+}
+
+.btnt {
+    background-color: red;
+    color: white;
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+#container-one {
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#bo {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+.container-two1 {
+    height: 170px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 40px;
+    color: black;
+
+}
+
+.container-two2 {
+    height: 170px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 40px;
+
+}
+
+.container-two3 {
+    height: 170px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 40px;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.setimg {
+    width: 270px;
+    height: 130px;
+    margin: 13px;
+}
+
+.btn-main {
+    text-align: center;
+    gap: 70px;
+}
+
+.btn-main>button {
+    margin: 80px;
+    margin-top: 50px;
+}
+
+.btn1 {
+    color: rgb(250, 246, 246);
+    background-color: transparent;
+    border: 1px solid white;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.container-screen3 {
+    
+    height: 680px;
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+    color: aliceblue;
+}
+
+.text {
+    text-align: center;
+    padding-top: 80px;
+    word-spacing: 5px;
+    line-height: 40px;
+    
+
+}
+
+#saltnpepper {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xxx-large;
+}
+.salt{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.divbtn{
+    color: rgb(252, 251, 251);
+    background-color: transparent;
+    border: 1px solid white;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+}
+.maindivc{
+    margin-left: 70px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 90px;
+}
+.faisalabad{
+   /* position: relative; */
+   padding-left: 150px;
+}
+.container56{
+    /* margin: 50px; */
+    display: flex;
+   height: 400px;
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+}
+.container57{
+    height: 430px;
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+
+}
+.containermain58{
+    width: 100%;
+    background-color: black;
+}
+.container59{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.img36{
+    min-height: 130px;
+    max-height: 300px;
+    min-width: 150px;
+    max-width: 300px;
+}
+.containermain4{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+.containers1{
+    width: 300px;
+    margin: 5px;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media screen and (max-width:600px) {
+    .ul{
+        list-style: none;
+    }
+  }
